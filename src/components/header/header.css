@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.subHeaderbox1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.subHeaderbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.subHeaderbox2 > h2 {
+    font-family: 'Cardo', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 0px 0px 10px #ffffff75;
+}
+
+.subHeaderbox3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    color: white;
+}
+
+.subHeaderbox1 > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.search{
+    padding: 8px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    outline: none;
+    color: #b9b9b9;
+    background-color: #3b3b3b;
+}
+.search::placeholder {
+    color: #b9b9b9;
+    text-align: center;
+    opacity: 1;
+  }
+.listItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    color: #b9b9b9;
+    cursor: pointer;
+    border-bottom: 2px solid #222222;
+    transition: all 0.35s ease-in-out;
+}
+
+.listItem:hover{
+    color: rgb(248, 237, 223);
+    border-bottom: 2px solid rgb(248, 237, 223);
+}
+
+.b{
+    cursor: pointer;
+    color: #b9b9b9;
+    transition: all 0.3s ease-in-out;
+}
+
+.b:hover{
+    color: #d9d8d8;
+}

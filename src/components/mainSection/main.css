@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
+
+.main{
+    margin-top: 20px;
+    width: 97vw;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.wellcome{
+    position: absolute;
+    top: 40%;
+    right: 35%;
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 8px;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 0px 0px 10px #ffffff;
+    color: #222222;
+
+}
+
+.hide{
+    transition: all 0.3s ease-in-out;
+    text-shadow: none;
+}
+
+.subMainBox1{
+    height: 90%;
+    width: 40%;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #5c514d;
+    box-shadow: 0px 0px 10px 0px rgba(245, 245, 245 , 0.3);
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+
+}
+
+.para{
+    color: #b9b9b9;
+    font-family: 'Great Vibes', cursive;
+}
+
+.btn{
+    background-color: #ffa97d;
+    padding: 13px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #f89462;
+    width: 150px;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 700;
+    font-size: 2.5rem;
+    color: #b9b9b9;
+}
+
+.title{
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2.5rem;
+    word-spacing: 10px;
+}
+
+.footer{
+    cursor: pointer;
+    color: #b9b9b9;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #5c514d;
+    padding: 10px;
+
+}
+
+.footer:hover{
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.loc{
+    padding-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+.footer:hover .location{
+    transform: translateY(-5px);
+}
+
+.location{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.subMainBox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    width: 40%;
+    border-radius: 30px;
+    padding: 30px;
+    background: url("../.././assets/bag.webp") no-repeat center/cover;
+    box-shadow: 0px 0px 10px 0px rgba(245, 245, 245 , 0.3);
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.arrow:hover{
+    background-color: white;
+    opacity: 0.9;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Great+Vibes&display=swap');
+
+.about{
+    margin-top: 20px;
+    width: 97vw;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.subAboutBox1{
+    height: 90%;
+    width: 40%;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(245, 245, 245 , 0.3);
+}
+
+.subAboutBox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    width: 40%;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(245, 245, 245 , 0.3);
+    background: url("../.././assets/bag2.webp") no-repeat center/cover;
+}
+
+.subAboutBox1 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+    word-spacing: 5px;
+}
