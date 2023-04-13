@@ -11,6 +11,7 @@ function App() {
       <Main/>
       <Features/>
       <About/>
+      <hr className="hr"/>
       <Footer/>
     </div>
   );
